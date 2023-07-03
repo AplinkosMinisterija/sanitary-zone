@@ -224,7 +224,14 @@ function App() {
     );
 
     if (isEmpty(filteredCompanyCodes))
-      return <Empty>{descriptions.notFound}</Empty>;
+      return (
+        <Empty>
+          {descriptions.notFound}{" "}
+          <a href="/info.pdf" download="info" target="_blank">
+            čia
+          </a>
+        </Empty>
+      );
 
     const company = companies.find(
       (company) => company.code === Number(currentCode)

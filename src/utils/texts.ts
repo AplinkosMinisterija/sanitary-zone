@@ -6,7 +6,8 @@ export const descriptions = {
   main: `Greitai sužinokite, ar dėl jūsų įmonės vykdomos veiklos reikia
   nustatyti sanitarinės apsaugos zoną. Pasinaudokite mūsų sukurtu
   įrankiu. Įveskite įmonės kodą ir paspauskite mygtuką sužinoti.`,
-  notFound: "Sanitarinės apsaugos zona nenustatoma"
+  notFound:
+    "Aplinkos ministerijos turimais duomenimis SAZ nenustatoma. Jeigu pradėjote vykdyti naują ūkinę veiklą ar padidinote vykdomos ūkinės veiklos apimtis, pasitikrinti, ar dėl šios veiklos neprivaloma nustatyti SAZ, galite"
 };
 
 export const tableLabels = {
