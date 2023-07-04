@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+# BĮIP Žuvinimas WEB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/AplinkosMinisterija/biip-zuvinimas-web/badge)](https://securityscorecards.dev/viewer/?platform=github.com&org={AplinkosMinisterija}&repo={biip-zuvinimas-web})
+[![License](https://img.shields.io/github/license/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/stargazers)
 
-## Available Scripts
+This repository contains the source code and documentation for the BĮIP Žuvinimas WEB, developed by the Aplinkos
+Ministerija.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About the Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The BĮIP Žuvinimas WEB is designed to provide information and functionalities related to fish stocking activities. It
+aims to support the management and conservation of fish populations, as well as the sustainability of fishing practices.
 
-### `npm test`
+This is a client application that utilizes
+the [BĮIP Žuvinimas API](https://github.com/AplinkosMinisterija/biip-zuvinimas-api).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Key features of the WEB include:
 
-### `npm run build`
+- Retrieving fish stocking data, such as planned fish stockings and historical information.
+- Managing fish stocking data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the BĮIP Žuvinimas WEB, follow the instructions below.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git clone https://github.com/AplinkosMinisterija/biip-zuvinimas-web.git
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install the required dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   cd biip-zuvinimas-web
+   yarn install
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Usage
 
-## Learn More
+1. Start the WEB server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   yarn start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The WEB will be available at `http://localhost:8080`.
+
+## Deployment
+
+### Production
+
+To deploy the application to the production environment, create a new GitHub release:
+
+1. Go to the repository's main page on GitHub.
+2. Click on the "Releases" tab.
+3. Click on the "Create a new release" button.
+4. Provide a version number, such as `1.2.3`, and other relevant information.
+5. Click on the "Publish release" button.
+
+### Staging
+
+The `main` branch of the repository is automatically deployed to the staging environment. Any changes pushed to the main
+branch will trigger a new deployment.
+
+### Development
+
+To deploy any branch to the development environment use the `Deploy to Development` GitHub action.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a
+pull request. For more information, see the [contribution guidelines](./CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
