@@ -287,6 +287,8 @@ const H1 = styled.h1`
   line-height: 1em;
   font-weight: 900;
   margin: 0;
+  @media ${device.mobileL} {
+    font-size: 3rem;
 `;
 
 const Coloring = styled.span`
