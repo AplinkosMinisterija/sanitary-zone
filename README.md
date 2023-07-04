@@ -1,4 +1,4 @@
-# BĮIP Žuvinimas WEB
+# BĮIP XXXXXX WEB
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/AplinkosMinisterija/biip-zuvinimas-web/badge)](https://securityscorecards.dev/viewer/?platform=github.com&org={AplinkosMinisterija}&repo={biip-zuvinimas-web})
 [![License](https://img.shields.io/github/license/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/blob/main/LICENSE)
