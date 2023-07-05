@@ -130,7 +130,7 @@ function App() {
     return (
       <Table>
         {parsedTableInfo.hasRange && (
-          <div> {tableLabels.selectPerformance}</div>
+          <InfoText> {tableLabels.selectPerformance}</InfoText>
         )}
         <ButtonsGroup
           options={options}
@@ -145,12 +145,14 @@ function App() {
         {activities.map((activity) => {
           return (
             <>
-              <strong>{activity?.mainActivity?.label}</strong>
+              <MainActivity>{activity?.mainActivity?.label}</MainActivity>
               {activity?.otherActivities?.map((item) => {
                 return (
                   <TableRow>
                     <BodyItem>{item?.label}</BodyItem>
-                    <BodyItem>{item?.area || getRangeArea(item?.id)}</BodyItem>
+                    <BodyAreaItem>
+                      {item?.area || getRangeArea(item?.id)}
+                    </BodyAreaItem>
                   </TableRow>
                 );
               })}
@@ -240,12 +242,12 @@ function App() {
     return (
       <>
         <CompanyInfo>
-          <div>
-            {tableLabels.companyName} <strong>{company?.name}</strong>{" "}
-          </div>
-          <div>
-            {tableLabels.companyCode} <strong>{company?.code}</strong>{" "}
-          </div>
+          <InfoText>
+            {tableLabels.companyName} <Strong>{company?.name}</Strong>{" "}
+          </InfoText>
+          <InfoText>
+            {tableLabels.companyCode} <Strong>{company?.code}</Strong>{" "}
+          </InfoText>
         </CompanyInfo>
         <MemoizedRenderTable
           ids={filteredCompanyCodes.map((item) => item.codeId)}
@@ -288,7 +290,9 @@ const H1 = styled.h1`
   font-weight: 900;
   margin: 0;
   @media ${device.mobileL} {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 40px;
+  }
 `;
 
 const Coloring = styled.span`
@@ -320,6 +324,26 @@ const Table = styled.div`
   margin-top: 64px;
 `;
 
+const Strong = styled.strong`
+  @media ${device.mobileL} {
+    font-size: 1rem;
+  }
+`;
+
+const MainActivity = styled.div`
+  font-weight: bold;
+  @media ${device.mobileL} {
+    font-size: 0.9rem;
+    line-height: 18px;
+  }
+`;
+
+const InfoText = styled.div`
+  @media ${device.mobileL} {
+    font-size: 1rem;
+  }
+`;
+
 const TableRow = styled.div`
   display: grid;
   grid-template-columns: 1fr 135px;
@@ -331,6 +355,10 @@ const TableRow = styled.div`
       background-color: #b7e1dd;
     }
   }
+
+  @media ${device.mobileL} {
+    grid-template-columns: 1fr 80px;
+  }
 `;
 
 const HeaderItem = styled.div`
@@ -338,6 +366,10 @@ const HeaderItem = styled.div`
   padding: 8px 16px;
   display: flex;
   align-items: center;
+  @media ${device.mobileL} {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
 `;
 
 const BodyItem = styled.div`
@@ -345,6 +377,22 @@ const BodyItem = styled.div`
   padding: 8px 16px;
   display: flex;
   align-items: center;
+  @media ${device.mobileL} {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+`;
+
+const BodyAreaItem = styled.div`
+  background-color: #f4f4f6;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+  @media ${device.mobileL} {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
 `;
 
 const CompanyInfo = styled.div`
