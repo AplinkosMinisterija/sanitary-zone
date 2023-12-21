@@ -1,11 +1,11 @@
-# BĮIP XXXXXX WEB
+# SANITARY ZONE WEB
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/AplinkosMinisterija/biip-zuvinimas-web/badge)](https://securityscorecards.dev/viewer/?platform=github.com&org={AplinkosMinisterija}&repo={biip-zuvinimas-web})
-[![License](https://img.shields.io/github/license/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/issues)
-[![GitHub stars](https://img.shields.io/github/stars/AplinkosMinisterija/biip-zuvinimas-web)](https://github.com/AplinkosMinisterija/biip-zuvinimas-web/stargazers)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/AplinkosMinisterija/sanitary-zone/badge)](https://securityscorecards.dev/viewer/?platform=github.com&org={AplinkosMinisterija}&repo={sanitary-zone})
+[![License](https://img.shields.io/github/license/AplinkosMinisterija/sanitary-zone)](https://github.com/AplinkosMinisterija/sanitary-zone/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/AplinkosMinisterija/sanitary-zone)](https://github.com/AplinkosMinisterija/sanitary-zone/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AplinkosMinisterija/sanitary-zone)](https://github.com/AplinkosMinisterija/sanitary-zone/stargazers)
 
-This repository contains the source code and documentation for the BĮIP Žuvinimas WEB, developed by the Aplinkos
+This repository contains the source code and documentation for the  SANITARY ZONE WEB, developed by the Aplinkos
 Ministerija.
 
 ## Table of Contents
@@ -20,33 +20,32 @@ Ministerija.
 
 ## About the Project
 
-The BĮIP Žuvinimas WEB is designed to provide information and functionalities related to fish stocking activities. It
-aims to support the management and conservation of fish populations, as well as the sustainability of fishing practices.
+The SANITARY ZONE WEB Information Web is a tool designed to provide companies with quick and easy access to information about their respective sanitary zones. Users can enter their company name and receive detailed information about the sanitary zone applicable to their location.
 
-This is a client application that utilizes
-the [BĮIP Žuvinimas API](https://github.com/AplinkosMinisterija/biip-zuvinimas-api).
+
 
 Key features of the WEB include:
 
-- Retrieving fish stocking data, such as planned fish stockings and historical information.
-- Managing fish stocking data.
+- Search by Company Name: Users can input their company name to retrieve information about the designated sanitary zone.
+- Sanitary Zone Details: The web application provides comprehensive details about the specific sanitary zone associated with the entered company name.
+- User-Friendly Interface: The user interface is designed to be intuitive and user-friendly, ensuring a seamless experience for users of all levels.
 
 ## Getting Started
 
-To get started with the BĮIP Žuvinimas WEB, follow the instructions below.
+To get started with the SANITARY ZONE WEB, follow the instructions below.
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AplinkosMinisterija/biip-zuvinimas-web.git
+   git clone https://github.com/AplinkosMinisterija/sanitary-zone.git
    ```
 
 2. Install the required dependencies:
 
    ```bash
-   cd biip-zuvinimas-web
+   cd sanitary-zone
    yarn install
    ```
 
