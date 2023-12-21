@@ -17900,17 +17900,9 @@ export const codes = [
   { parentCode: null, code: "10.62", id: 7, tableId: 1 },
   { parentCode: null, code: "10.81", id: 8, tableId: 1 },
   { parentCode: null, code: "10.9", id: 9, tableId: 1 },
-  { parentCode: null, code: "13.10", id: 10, tableId: 1 },
-  { parentCode: null, code: "13.30", id: 11, tableId: 1 },
-  { parentCode: null, code: "13.94", id: 12, tableId: 1 },
-  { parentCode: null, code: "13.96", id: 13, tableId: 1 },
   { parentCode: null, code: "15.11", id: 14, tableId: 1 },
-  { parentCode: null, code: "15.20", id: 15, tableId: 1 },
   { parentCode: null, code: "16.1", id: 16, tableId: 1 },
   { parentCode: null, code: "16.21", id: 17, tableId: 1 },
-  { parentCode: null, code: "16.22", id: 18, tableId: 1 },
-  { parentCode: null, code: "16.23", id: 19, tableId: 1 },
-  { parentCode: null, code: "16.29", id: 20, tableId: 1 },
   { parentCode: null, code: "17", id: 21, tableId: 1 },
   { parentCode: null, code: "19", id: 22, tableId: 1 },
   { parentCode: 22, code: "19.20", id: 23, tableId: 1 },
@@ -17919,42 +17911,23 @@ export const codes = [
   { parentCode: null, code: "20.3", id: 26, tableId: 1 },
   { parentCode: null, code: "20.41", id: 27, tableId: 1 },
   { parentCode: null, code: "20.42", id: 28, tableId: 1 },
-  { parentCode: null, code: "20.5", id: 29, tableId: 1 },
-  { parentCode: null, code: "20.6", id: 30, tableId: 1 },
-  { parentCode: null, code: "21", id: 31, tableId: 1 },
+  { parentCode: null, code: "20.51", id: 29, tableId: 1 },
   { parentCode: null, code: "22.11", id: 32, tableId: 1 },
   { parentCode: null, code: "22.19", id: 33, tableId: 1 },
   { parentCode: null, code: "22.2", id: 34, tableId: 1 },
-  { parentCode: null, code: "23.1", id: 35, tableId: 1 },
   { parentCode: null, code: "23.20", id: 36, tableId: 1 },
   { parentCode: null, code: "23.3", id: 37, tableId: 1 },
-  { parentCode: null, code: "23.4", id: 38, tableId: 1 },
   { parentCode: null, code: "23.5", id: 39, tableId: 1 },
   { parentCode: null, code: "23.6", id: 40, tableId: 1 },
   { parentCode: null, code: "23.65", id: 41, tableId: 1 },
   { parentCode: null, code: "23.69", id: 42, tableId: 1 },
-  { parentCode: null, code: "23.9", id: 43, tableId: 1 },
-  { parentCode: null, code: "27.11", id: 44, tableId: 1 },
-  { parentCode: null, code: "27.12", id: 45, tableId: 1 },
-  { parentCode: null, code: "27.20", id: 46, tableId: 1 },
-  { parentCode: null, code: "27.3", id: 47, tableId: 1 },
-  { parentCode: null, code: "27.4", id: 48, tableId: 1 },
-  { parentCode: null, code: "29", id: 49, tableId: 1 },
   { parentCode: null, code: "30.11", id: 50, tableId: 1 },
-  { parentCode: null, code: "30.20", id: 51, tableId: 1 },
-  { parentCode: null, code: "30.9", id: 52, tableId: 1 },
-  { parentCode: null, code: "31", id: 53, tableId: 1 },
-  { parentCode: null, code: "31.03", id: 54, tableId: 1 },
   { parentCode: null, code: "32.40.20", id: 55, tableId: 1 },
   { parentCode: null, code: "32.40.60", id: 56, tableId: 1 },
   { parentCode: null, code: "33.15", id: 57, tableId: 1 },
-  { parentCode: null, code: "35.11", id: 58, tableId: 1 },
   { parentCode: null, code: "35.21", id: 59, tableId: 1 },
-  { parentCode: null, code: "35.3", id: 60, tableId: 1 },
   { parentCode: null, code: "38.21", id: 61, tableId: 1 },
   { parentCode: null, code: "38.22", id: 62, tableId: 1 },
-  { parentCode: null, code: "38.31", id: 63, tableId: 1 },
-  { parentCode: null, code: "38.32", id: 64, tableId: 1 },
   {
     parentCode: null,
     code: "1",
@@ -18086,52 +18059,14 @@ export const activities = [
     label: "skerdyklų atliekų perdirbimas gyvūnų pašarui gaminti",
     area: "500"
   },
-  {
-    id: 20,
-    label: "Tekstilės pluoštų paruošimas ir verpimas:",
-    area: ""
-  },
-  {
-    id: 21,
-    label:
-      "tekstilės pluoštų paruošimas ir verpimas, išskyrus šios lentelės 10.2 papunktyje nurodytus objektus;",
-    area: "100"
-  },
-  {
-    id: 22,
-    label: "linų pirminio apdirbimo įmonės, kuriose mirkomi linai",
-    area: "300"
-  },
-  {
-    id: 23,
-    label:
-      "Tekstilės apdaila, kai gamybos pajėgumas – 200 000 m2 ir daugiau per metus",
-    area: "100"
-  },
-  {
-    id: 24,
-    label:
-      "Virvių, lynų, virvelių ir tinklų gamyba (tik guma ir (ar) plastikais įmirkytų, dengtų, apvilktų, aptrauktų virvių, lynų, virvelių ir tinklų gamyba)",
-    area: "100"
-  },
-  {
-    id: 25,
-    label:
-      "Kitų techninės ir pramoninės tekstilės gaminių ir dirbinių gamyba (tik guma ir (ar) plastikais įmirkytų, dengtų, apvilktų, aptrauktų, laminuotų gaminių gamyba)",
-    area: "100"
-  },
+
   {
     id: 26,
     label:
       "Odų rauginimas ir išdirbimas, kailių išdirbimas ir dažymas, kai gamybos pajėgumas – 500 m2 ir daugiau per parą ",
     area: "300"
   },
-  {
-    id: 27,
-    label:
-      "Avalynės gamyba, kai gamybos pajėgumas – 100 ir daugiau batų porų per parą",
-    area: "50"
-  },
+  
   {
     id: 28,
     label:
@@ -18166,24 +18101,7 @@ export const activities = [
     label: "faneros gamyba, kai gamybos pajėgumas – 50 m3 ir daugiau per parą",
     area: "200"
   },
-  {
-    id: 34,
-    label:
-      "Sumontuotų parketo grindų gamyba, kai gamybos pajėgumas – 5 000 m2 ir daugiau per parą",
-    area: "100"
-  },
-  {
-    id: 35,
-    label:
-      "Kitų statybinių dailidžių ir stalių dirbinių gamyba, kai gamybos pajėgumas – 5 000 m2 (ar 50 m3) ir daugiau per parą",
-    area: "100"
-  },
-  {
-    id: 36,
-    label:
-      "Kuro granulių iš presuotos medienos ar pakaitalų, aglomeruotos kamštienos gamyba, dirbinių gamyba iš natūralios ar aglomeruotos kamštienos",
-    area: "100"
-  },
+
   {
     id: 37,
     label:
@@ -18229,14 +18147,9 @@ export const activities = [
     area: "300"
   },
   {
-    id: 45,
-    label: "kai gamybos pajėgumas – nuo 0,5 iki 10 tonų per parą",
-    area: "100"
-  },
-  {
     id: 46,
     label:
-      "Muilo ir ploviklių, valiklių ir blizgiklių gamyba, kai gamybos pajėgumas – 0,5 tonos ir daugiau per parą",
+      "Muilo ir ploviklių, valiklių ir blizgiklių gamyba, kai gamybos pajėgumas – 10 ir daugiau tonų per parą",
     area: "100"
   },
   {
@@ -18256,20 +18169,10 @@ export const activities = [
   },
   {
     id: 50,
-    label: "Kitų cheminių medžiagų gamyba",
+    label: "Sprogiųjų medžiagų gamyba",
     area: "300"
   },
-  {
-    id: 51,
-    label: "Cheminių pluoštų gamyba",
-    area: "500"
-  },
-  {
-    id: 52,
-    label:
-      "Pagrindinių vaistų pramonės gaminių ir farmacinių preparatų (farmacijos produktų) gamyba, kai gamybos pajėgumas – 0,5 tonos ir daugiau per parą",
-    area: "100"
-  },
+
   {
     id: 53,
     label: "Guminių gaminių gamyba ir perdirbimas (atgavimas):",
@@ -18314,43 +18217,23 @@ export const activities = [
     label: "plastikinių gaminių perdirbimas (atgavimas)",
     area: "300"
   },
-  {
-    id: 61,
-    label:
-      "Stiklo ir stiklo gaminių bei dirbinių gamyba ir perdirbimas (atgavimas):",
-    area: ""
-  },
-  {
-    id: 62,
-    label: "stiklo ir stiklo gaminių bei dirbinių gamyba;",
-    area: "100"
-  },
-  {
-    id: 63,
-    label: "stiklo gaminių perdirbimas (atgavimas)",
-    area: "100"
-  },
+
   {
     id: 64,
     label:
-      "Ugniai atsparių gaminių gamyba, kai gamybos pajėgumas – viena ir daugiau tonų per parą",
+      "Ugniai atsparių gaminių gamyba, kai gamybos pajėgumas – 10 ir daugiau tonų per parą",
     area: "100"
   },
   {
     id: 65,
     label:
-      "Statybinių medžiagų iš molio gamyba, kai gamybos pajėgumas – viena ir daugiau tonų per parą",
+      "Statybinių medžiagų iš molio gamyba, kai gamybos pajėgumas – 10 ir daugiau tonų per parą",
     area: "100"
   },
-  {
-    id: 66,
-    label:
-      "Kitų porcelianinių ir keraminių gaminių bei dirbinių gamyba, kai gamybos pajėgumas – viena ir daugiau tonų per parą",
-    area: "100"
-  },
+
   {
     id: 67,
-    label: "Cemento, kalkių ir gipso gamyba",
+    label: "Cemento, kalkių ir gipso gamyba, kai gamybos pajėgumas – 10 ir daugiau tonų per parą",
     area: "1000"
   },
   {
@@ -18361,7 +18244,7 @@ export const activities = [
   {
     id: 69,
     label:
-      "betono, cemento ir gipso gaminių bei dirbinių gamyba, kai gamybos pajėgumas – daugiau kaip 5 000 m3 per metus, išskyrus šios lentelės 40.2 papunktyje nurodytus objektus;",
+      "betono, cemento ir gipso gaminių bei dirbinių gamyba, kai gamybos pajėgumas – daugiau kaip 5 000 m3 per metus, išskyrus šios lentelės 28.2 papunktyje nurodytus objektus;",
     area: "100"
   },
   {
@@ -18370,70 +18253,16 @@ export const activities = [
       "fibrolito gamyba, kitų betono, gipso ir cemento gaminių bei dirbinių gamyba, kai gamybos pajėgumas – viena ir daugiau tonų per parą",
     area: "100"
   },
-  {
-    id: 71,
-    label:
-      "Abrazyvinių gaminių ir niekur kitur nepriskirtų nemetalo mineralinių produktų gamyba, kai gamybos pajėgumas – viena ir daugiau tonų per parą",
-    area: "100"
-  },
-  {
-    id: 72,
-    label: "Elektros įrangos gamyba:",
-    area: ""
-  },
-  {
-    id: 73,
-    label: "elektros variklių, generatorių ir transformatorių gamyba;",
-    area: "100"
-  },
-  {
-    id: 74,
-    label: "elektros skirstomosios ir valdymo įrangos gamyba;",
-    area: "50"
-  },
-  {
-    id: 75,
-    label: "baterijų ir akumuliatorių gamyba;",
-    area: "100"
-  },
-  {
-    id: 76,
-    label: "laidų ir instaliacijos įtaisų gamyba;",
-    area: "50"
-  },
-  {
-    id: 77,
-    label: "elektros apšvietimo įrangos gamyba",
-    area: "50"
-  },
-  {
-    id: 78,
-    label:
-      "Variklinių transporto priemonių, priekabų ir puspriekabių gamyba, kai gamybinių patalpų plotas didesnis kaip 1 000 m2",
-    area: "100"
-  },
+
+
   {
     id: 79,
     label: "Laivų ir plūdriųjų konstrukcijų statyba ir remontas",
     area: "100"
   },
-  {
-    id: 80,
-    label:
-      "Geležinkelio lokomotyvų ir riedmenų gamyba, kai gamybinių patalpų plotas didesnis kaip 1 000 m2",
-    area: "100"
-  },
-  {
-    id: 81,
-    label:
-      "Niekur kitur nepriskirtų transporto priemonių gamyba, kai gamybinių patalpų plotas didesnis kaip 1 000 m2",
-    area: "50"
-  },
-  {
-    id: 82,
-    label: "Baldų gamyba, čiužinių gamyba",
-    area: "100"
-  },
+  
+ 
+ 
   {
     id: 83,
     label: "Elektros gamyba, garo tiekimas ir oro kondicionavimas:",
@@ -18466,28 +18295,8 @@ export const activities = [
       "Užkrėstų gyvų ar kritusių gyvūnų, taip pat gyvūninės kilmės atliekų apdorojimas ir šalinimas ",
     area: "500"
   },
-  {
-    id: 89,
-    label:
-      "Transporto priemonių, elektros ir elektroninės įrangos atliekų apdorojimas:",
-    area: ""
-  },
-  {
-    id: 90,
-    label:
-      "transporto priemonių, elektros ir elektroninės įrangos atliekų apdorojimas:",
-    area: "50"
-  },
-  {
-    id: 91,
-    label: "mašinų duženų išmontavimas",
-    area: "50"
-  },
-  {
-    id: 92,
-    label: "Juodųjų ir spalvotųjų metalų atliekų laužo perdirbimas (atgavimas)",
-    area: "100"
-  },
+
+
   { id: 93, label: "Atliekų deginimo įrenginys", area: "500" },
   { id: 94, label: "Nepavojingųjų atliekų sąvartynas", area: "500" },
   { id: 95, label: "Pavojingųjų atliekų sąvartynas", area: "500" },
@@ -18554,7 +18363,7 @@ export const activities = [
     area: "300"
   },
   { id: 111, label: "Kiaulių nuo 300 iki 499", area: "500" },
-  { id: 115, label: "Kiaulių nuo 500", area: "1500" },
+  { id: 115, label: "Kiaulių nuo 500", area: "1000" },
   { id: 112, label: "Broilerių, vištų (nuo 300)", area: "1000" },
   { id: 113, label: "Galvijų nuo 300 iki 1199", area: "300" },
   { id: 114, label: "Galvijų 1200", area: "500" }

@@ -139,7 +139,7 @@ function App() {
         />
 
         <TableRow>
-          <HeaderItem>{parsedTableInfo?.table.label}</HeaderItem>
+          <HeaderItem>{parsedTableInfo?.table?.label}</HeaderItem>
           <HeaderItem> {tableLabels.area}</HeaderItem>
         </TableRow>
         {activities.map((activity) => {
@@ -180,8 +180,11 @@ function App() {
             (activityRange) => activityRange.activityId === activity?.id
           )
         );
+
         const currentCode = codes.find((c) => c.id === curr.codeId);
         const currentTable = table.find((t) => t.id === currentCode?.tableId!);
+
+        if (!currentTable) return obj;
 
         const tableInfo = JSON.stringify({
           table: currentTable,
@@ -221,11 +224,15 @@ function App() {
       return <></>;
     }
 
-    const filteredCompanyCodes = companyCodes.filter(
-      (company) => company.companyCode === Number(currentCode)
-    );
+    const filteredCompanyCodes = companyCodes
+      .filter((company) => company.companyCode === Number(currentCode))
+      .map((item) => item.codeId);
 
-    if (isEmpty(filteredCompanyCodes))
+    if (
+      !activityCode
+        .filter((ac) => filteredCompanyCodes.includes(ac.codeId))
+        .some((c) => activities.find((a) => a.id === c.activityId))
+    )
       return (
         <Empty>
           {descriptions.notFound}{" "}
@@ -249,9 +256,7 @@ function App() {
             {tableLabels.companyCode} <Strong>{company?.code}</Strong>{" "}
           </InfoText>
         </CompanyInfo>
-        <MemoizedRenderTable
-          ids={filteredCompanyCodes.map((item) => item.codeId)}
-        />
+        <MemoizedRenderTable ids={filteredCompanyCodes} />
       </>
     );
   }, [currentCode]);
