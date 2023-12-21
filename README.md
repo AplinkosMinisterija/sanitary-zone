@@ -20,7 +20,7 @@ Ministerija.
 
 ## About the Project
 
-The SANITARY ZONE WEB Information Web is a tool designed to provide companies with quick and easy access to information about their respective sanitary zones. Users can enter their company name and receive detailed information about the sanitary zone applicable to their location.
+The SANITARY ZONE WEB is a tool designed to provide companies with quick and easy access to information about their respective sanitary zones. Users can enter their company name and receive detailed information about the sanitary zone applicable to their location.
 
 
 
